@@ -63,6 +63,15 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-remote-driver:3.6.0"
     testRuntime "org.seleniumhq.selenium:selenium-api:3.6.0"
+    // https://mvnrepository.com/artifact/org.webjars/jquery
+    compile group: 'org.webjars', name: 'jquery', version: '2.2.1'
+    // https://mvnrepository.com/artifact/org.webjars/bootstrap
+    compile group: 'org.webjars', name: 'bootstrap', version: '3.3.6'
+    // https://mvnrepository.com/artifact/org.webjars/font-awesome
+    compile group: 'org.webjars', name: 'font-awesome', version: '4.7.0'
+    // Define needed asset-pipeline plugins with the special assets-scope
+    assets 'com.bertramlabs.plugins:less-asset-pipeline:2.14.6'
+    assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.14.6'
 }
 
 bootRun {
