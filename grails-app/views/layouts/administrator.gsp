@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
     <title>
-        <g:layoutTitle default="INSPINIA - Main Page"/>
+        <g:layoutTitle default="INSPINIA - Administrator Page"/>
     </title>
 
     <!-- Bootstrap core CSS -->
@@ -119,6 +119,6 @@
 
 <asset:javascript src="webjars/jquery/2.2.1/jquery.js"/>
 <asset:javascript src="webjars/bootstrap/3.3.6/js/bootstrap.js"/>
-<asset:javascript src="main.js"/>
+<asset:javascript src="app.js"/>
 </body>
 </html>

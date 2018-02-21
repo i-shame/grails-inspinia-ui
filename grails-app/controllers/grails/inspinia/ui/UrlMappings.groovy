@@ -10,6 +10,8 @@ class UrlMappings {
         }
 
         "/"(view:"/index")
+        "/dashboard"(view:"/dashboard/index")
+        "/administrator"(view:"/administrator/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
