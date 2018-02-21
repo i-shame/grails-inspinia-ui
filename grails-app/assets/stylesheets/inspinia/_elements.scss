@@ -642,6 +642,8 @@ div.dt-button-info {
 
 .img-circle {
   border-radius: 50%;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .btn-circle {
@@ -958,6 +960,10 @@ div.dt-button-info {
 .slider_red .noUi-connect {
   background: none repeat scroll 0 0 $red;
   box-shadow: none;
+}
+
+#top-search {
+  color: #FFFFFF;
 }
 
 /* UI Sortable */

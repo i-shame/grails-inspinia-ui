@@ -10,16 +10,30 @@
 //= require classie.js
 //= require cbpAnimatedHeader.js
 //= require wow.min.js
-//= require inspinia.js
 //= require_self
 
 
 if (typeof jQuery !== 'undefined') {
-    (function($) {
-        $(document).ajaxStart(function() {
-            $('#spinner').fadeIn();
-        }).ajaxStop(function() {
-            $('#spinner').fadeOut();
+    // INSPINIA Landing Page Custom scripts
+    $(document).ready(function () {
+
+        // Highlight the top nav as scrolling
+        $('body').scrollspy({
+            target: '.navbar-fixed-top',
+            offset: 80
+        })
+
+        // Page scrolling feature
+        $('a.page-scroll').bind('click', function(event) {
+            var link = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $(link.attr('href')).offset().top - 70
+            }, 500);
+            event.preventDefault();
         });
-    })(jQuery);
+
+    });
+
+// Activate WOW.js plugin for animation on scrol
+    new WOW().init();
 }

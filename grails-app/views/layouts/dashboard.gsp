@@ -117,7 +117,7 @@
 <asset:javascript src="webjars/bootstrap/3.3.6/js/bootstrap.js"/>
 <asset:javascript src="jquery.metisMenu.js"/>
 <asset:javascript src="jquery.slimscroll.min.js"/>
-<asset:javascript src="dashboard.js"/>
+<asset:javascript src="inspinia.js"/>
 <asset:javascript src="pace.min.js"/>
 
 <!-- Custom and plugin javascript -->
